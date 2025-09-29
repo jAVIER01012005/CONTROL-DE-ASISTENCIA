@@ -18,8 +18,8 @@ class LocationService with ChangeNotifier {
   String? _lastError;
 
   // Configuración de geofence
-  double _officeLatitude = 15.7634;
-  double _officeLongitude = -86.75342;
+  double _officeLatitude = 15.7634; //15.772575
+  double _officeLongitude = -86.75342; //86.793401
   double _geofenceRadius = 100.0;
 
   // Configuraciones adicionales
